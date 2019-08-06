@@ -25,5 +25,5 @@ def convert(s,csv_f):
     #df.to_csv('result.csv',encoding='utf_8_sig')
     return df
 
-df=convert('驱动类型',csv_f)
+df=convert('性别',csv_f)
 df.to_csv('result.csv',encoding='utf_8_sig')
